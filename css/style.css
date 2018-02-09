@@ -1,0 +1,523 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+    font-family: light;
+    src: url(../font/Adequate-ExtraLight.ttf);
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{margin: auto;}
+body{}
+
+/*******************************    Header  ******************************/
+header{
+    background-image: url(../image/hbg.jpg);
+    background-repeat: repeat-x;
+    min-height: 450px;
+    width: 100%;
+}
+.wraper{
+    margin: 0px auto;
+    width: 70%;
+}
+
+.logo{
+    margin-top: 40px;
+    display: inline-flex;
+}
+.logo img{
+    padding: 5px;
+    height: 30px;
+}
+.logo span{
+    color: white;
+    padding: 5px 10px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+/***********************************    Menu   ******************************/
+.menu{
+    margin-top: 50px;
+    width: 60%;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 0px 15px;
+}
+.menu ul li a:hover{
+    font-weight: 900;
+}
+
+/*************************************   Welcome text   **************************/
+.welcome-text{
+    margin: 0px auto;
+    padding-top: 160px;
+    width: 100%;
+    height: 220px;
+}
+.welcome-text h3{
+    font-family: light;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+.welcome-text h1{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 40px;
+}
+.header-bottom{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.header-bottom a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 5px 15px;
+}
+.header-bottom a:hover{
+    font-weight: bold;
+}
+
+/******************************    development   *********************************/
+#development{
+    width: 100%;
+    min-height: 350px;
+    overflow: hidden;
+}
+.development-text{
+    width: 65%;
+    min-height: 200px;
+    padding-left: 5px;
+    margin: 80px 0px;
+}
+.development-text h1{
+    font-family: light;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.development-text p{
+    color: grey;
+}
+.development-icon{
+    width: 30%;
+    margin-top: 70px;
+}
+.development-icon img{
+    float: right;
+    width: 200px;
+}
+
+/**********************************    Branding    *********************************/
+#branding{
+    width: 100%;
+    min-height: 350px;
+    background-color: #FAFAFA;
+    overflow: hidden;
+}
+.branding-text{
+    width: 65%;
+    padding-right: 5px;
+    margin: 80px 0px;
+    text-align: right;
+}
+.branding-text h1{
+    font-family: light;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.branding-text p{
+    color: grey;
+}
+.branding-icon{
+    width: 30%;
+   margin-top: 110px;
+}
+.branding-icon img{
+    float: left;
+    width: 200px;
+}
+
+/**************************************   Facility   **********************************/
+#facility{
+    width: 100%;
+    height: 500px;
+    margin: 30px 0px;
+    overflow: hidden;
+}
+.single-facility{
+    width: 48%;
+    min-height: 100px;
+    margin-top:  50px;
+}
+.facility-icon{
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    margin: 15px 20px;
+    border-radius: 200px;
+    border: 2px solid darkgray;
+}
+.facility-icon img{}
+#img-1{padding-left: 23px; padding-top: 11px;}
+#img-2{padding-left: 15px; padding-top: 17px;}
+#img-3{padding-left: 17px; padding-top: 17px;}
+#img-4{padding-left: 17px; padding-top: 22px;}
+#img-5{padding-left: 15px; padding-top: 15px;}
+#img-6{padding-left: 18px; padding-top: 21px;}
+.facility-text{
+}
+.facility-text h4{
+    padding: 5px 0px;
+}
+.facility-text p{
+    color: dimgrey;
+}
+
+/**************************************************   Awesome Clients   *****************************/
+#client{
+    width: 100%;
+    min-height: 620px;
+    background-color: #FAFAFA;
+    overflow: hidden;
+}
+.client-head{
+    width: 90%;
+    min-height: 100px;
+    padding-top: 70px;
+    margin: auto;
+}
+.client-head h1{
+    font-family: light;
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+.client-head h6{
+    font-family: lihgt;
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    color: gray;
+}
+.single-client{
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid #fafafa;
+    position: relative;
+}
+.client-image1{
+    position: absolute;
+    left: 5px;
+    width: 200px;
+    height: 200px;
+}
+.client-image1 img{
+    border-radius: 300px;
+    width: 90%;
+    margin: 13px 5px;
+    border: 5px solid white;
+}
+.client-text1{
+    position: absolute;
+    right: 5px;
+    width: 65%;
+    min-height: 140px;
+    background-color: white;
+    margin: 30px 5px;
+    border-radius: 10px;
+    
+}
+.client-text1 p{
+    padding: 35px 10px;
+}
+
+.client-image2{
+    position: absolute;
+    right: 5px;
+    width: 200px;
+    height: 200px;
+}
+.client-image2 img{
+    border-radius: 300px;
+    width: 90%;
+    margin: 13px 5px;
+    border: 5px solid white;
+}
+.client-text2{
+    position: absolute;
+    left: 5px;
+    width: 65%;
+    min-height: 140px;
+    background-color: white;
+    margin: 30px 5px;
+    border-radius: 10px;
+    
+}
+.client-text2 p{
+    padding: 35px 10px;
+}
+
+/*************************************************** Brand *******************************************/
+#brand{
+    width: 100%;
+    min-height: 120px;
+}
+.brand{
+    margin: 0px auto;
+    display: table;
+}
+.brand ul{
+    padding-top: 15px;
+}
+.brand ul li{
+    list-style: none;
+    float: left;
+    padding: 29px 20px;
+}
+.brand ul li img{
+    align-content: center;
+}
+
+/****************************************************   team    *************************************/
+#team{
+    width: 100%;
+    min-height: 600px;
+    background-color: black;
+    overflow: hidden;
+}
+.team-head{
+    padding-top: 50px;
+}
+.team-head h1{
+    text-align: center;
+    font-family: light;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+}
+.team-head h5{
+    color: gray;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+}
+.image-group{
+    width: 100%;
+    min-height: 350px;
+    margin-top: 50px
+}
+.single-group{
+    width: 30%;
+    min-height: 320px;
+    padding-top: 10px;   
+}
+.single-group img{
+    width: 180px;
+    border-radius: 200px;
+    border: 5px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.single-group h5{
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 18px;
+}
+.single-group h6{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-size: 13px;
+}
+.single-group ul{
+    display: table;
+    margin: 0px auto;
+}
+.single-group ul li{
+    list-style: none;
+    float: left;
+    padding: 5px;
+}
+.single-group ul li img{
+}
+#social-icon1{
+    width: 16px;
+    padding: 5px 10px;
+}
+#social-icon2{
+    width: 22px;
+    padding: 10px 7px;
+}
+#social-icon3{
+    width: 16px;
+    padding: 10px
+}
+.team-footer{
+    width: 70%;
+    min-height: 50px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.team-footer p{
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+/*****************************************************   Footer   ************************************/
+#footer{
+    width: 100%;
+    min-height: 550px;
+    background-color: #7690C5;
+}
+.say-hello{
+    width: 40%;
+    min-height: 300px;
+    margin-top: 50px;
+    padding: 5px;
+}
+.say-hello h1{
+    font-family: light;
+    color: white;
+    font-weight: normal;
+    font-size: 40px;
+}
+.say-hello p{
+    color: white;
+    padding-top: 15px
+}
+.say-hello ul{
+    margin-top: 15px;
+    color: white;
+}
+.say-hello ul li{
+    list-style: none;
+    float: inherit;
+    padding: 5px;
+}
+.say-hello ul li img{
+    width: 20px;
+}
+.say-hello ul li span{
+    font-size: 13px
+}
+
+.ul-left{
+    width: 45%;
+    min-height: 200px;
+}
+.ul-left ul{}
+.ul-left ul li{
+    padding: 15px 5px;
+}
+.ul-left ul li img{}
+.ul-left ul li span{
+    padding: 0px 5px;
+    font-size: 17px;
+}
+
+.ul-right{
+    width: 45%;
+    min-height: 200px;
+}
+.ul-right ul{}
+.ul-right ul li{
+    padding: 15px 5px;
+}
+.ul-right ul li img{}
+#facebook-say-hello-icon{
+    height: 20px;
+}
+.ul-right ul li span{
+    padding: 0px 5px;
+    font-size: 17px;
+}
+
+/**********************************************   Massage  ******************************************/
+.massage{
+    width: 40%;
+    min-height: 300px;
+    margin-top: 50px;
+    padding: 5px;
+    margin-bottom: 40px;
+}
+form{
+    float: right;
+}
+.form-group{
+    padding: 10px 5px;
+}
+#name{
+    width: 340px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+}
+#email{
+    width: 340px;
+    height: 35px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+}
+#message{
+    width: 340px;
+    height: 150px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: none;
+}
+#send{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+    border: 1px solid gray;
+}
+#send:hover{
+    background-color: lightcyan;
+    border: 1px solid blue;
+}
+
+.footer-bottom{
+    clear: both;
+    width: 80%;
+    margin: auto;
+    min-height: 50px;
+    border-top: 1px solid white;
+}
+.footer-bottom p{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
